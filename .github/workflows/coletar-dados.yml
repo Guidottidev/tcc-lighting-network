@@ -1,0 +1,32 @@
+name: Coletar dados e gerar figuras
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalar dependencias
+        run: pip install requests pandas matplotlib
+      - name: Coletar dados brutos
+        run: python scripts/coletar_dados.py
+      - name: Construir base
+        run: python scripts/construir_base.py
+      - name: Gerar figuras
+        run: python scripts/figuras.py
+      - name: Salvar resultados no repositorio
+        if: always()
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add data figuras || true
+          git diff --cached --quiet || git commit -m "Dados e figuras gerados pelo workflow"
+          git push
