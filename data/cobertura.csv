@@ -1,5 +1,8 @@
 indicador,datas_esperadas,registros,faltando,com_T3
-capacidade_btc,31,31,0,31
-nos,31,0,31,0
-canais,31,0,31,0
+capacidade_btc,31,26,5,6
+canais,31,26,5,6
+nos_tor,31,26,5,6
+nos_clearnet,31,26,5,6
+nos_nao_anunciados,31,26,5,6
+nos_clearnet_tor,31,26,5,6
 tvl_usd_milhoes,31,19,12,0
