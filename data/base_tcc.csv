@@ -1,0 +1,51 @@
+data_referencia,data_observacao,data_consulta,indicador,valor,unidade,fonte,url,arquivo_original,tratamentos
+2018-03-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2018-06-30,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2018-09-30,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2018-12-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2019-03-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2019-06-30,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2019-09-30,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2019-12-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2020-03-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2020-06-30,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2020-09-30,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2020-12-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2021-03-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2021-06-30,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2021-09-30,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2021-12-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2022-03-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2022-06-30,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2022-09-30,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2022-12-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2023-03-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2023-06-30,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2023-09-30,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2023-12-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2024-03-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2024-06-30,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2024-09-30,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2024-12-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2025-03-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2025-06-30,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2025-08-31,1970-01-01,2026-11-03,capacidade_btc,0.0005,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
+2021-03-31,2021-03-31,2026-11-03,tvl_usd_milhoes,69.032777,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2021-06-30,2021-06-30,2026-11-03,tvl_usd_milhoes,57.793658,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2021-09-30,2021-09-30,2026-11-03,tvl_usd_milhoes,129.888401,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2021-12-31,2021-12-31,2026-11-03,tvl_usd_milhoes,155.351001,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2022-03-31,2022-03-31,2026-11-03,tvl_usd_milhoes,171.197661,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2022-06-30,2022-06-30,2026-11-03,tvl_usd_milhoes,80.338075,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2022-09-30,2022-09-30,2026-11-03,tvl_usd_milhoes,95.94177,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2022-12-31,2022-12-31,2026-11-03,tvl_usd_milhoes,85.185798,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2023-03-31,2023-03-31,2026-11-03,tvl_usd_milhoes,153.060826,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2023-06-30,2023-06-30,2026-11-03,tvl_usd_milhoes,165.643586,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2023-09-30,2023-09-30,2026-11-03,tvl_usd_milhoes,118.862126,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2023-12-31,2023-12-31,2026-11-03,tvl_usd_milhoes,210.874829,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2024-03-31,2024-03-31,2026-11-03,tvl_usd_milhoes,319.071887,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2024-06-30,2024-06-30,2026-11-03,tvl_usd_milhoes,310.809976,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2024-09-30,2024-09-30,2026-11-03,tvl_usd_milhoes,344.812232,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2024-12-31,2024-12-31,2026-11-03,tvl_usd_milhoes,468.72241,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2025-03-31,2025-03-31,2026-11-03,tvl_usd_milhoes,365.126443,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2025-06-30,2025-06-30,2026-11-03,tvl_usd_milhoes,447.920628,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2025-08-31,2025-08-31,2026-11-03,tvl_usd_milhoes,420.275981,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
