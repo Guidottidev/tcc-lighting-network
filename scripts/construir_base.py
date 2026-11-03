@@ -8,21 +8,39 @@ Regras (as mesmas da planilha de controle):
 - datas de referencia: ultimo dia de cada trimestre, 2018-2025, mais 2025-08-31;
 - para cada data usa a observacao REAL mais proxima ANTERIOR (T3) e registra a data
   dessa observacao em data_observacao;
-- sem observacao anterior, a data fica SEM registro (T6). Nada e interpolado;
+- se a observacao anterior estiver a mais de MAX_DEFASAGEM_DIAS da data de referencia,
+  a data fica SEM registro (T6), para nao carregar um valor velho como se fosse atual;
+- sem observacao anterior, a data tambem fica SEM registro (T6). Nada e interpolado;
 - sats -> BTC e USD -> milhoes de USD (T1).
-Saidas: data/base_tcc.csv e data/cobertura.csv
 
-Esta versao imprime diagnosticos no log (campos dos arquivos baixados) e nao
-interrompe a execucao quando um indicador falha.
+Correcao desta versao: o campo 'added' da mempool.space e um timestamp Unix em
+SEGUNDOS (a versao anterior o lia como nanossegundos e gerava datas de 1970).
+
+Nos: o arquivo da mempool.space traz quatro componentes (tor_nodes, clearnet_nodes,
+unannounced_nodes, clearnet_tor_nodes) e nao um total. Eles sao registrados
+separadamente; nao ha soma, porque a definicao de 'total de nos' deve ser confirmada
+na documentacao da fonte antes de somar (clearnet_tor_nodes pode sobrepor outros).
+
+Saidas: data/base_tcc.csv e data/cobertura.csv
 """
 import json, os, traceback
 import pandas as pd
 
+MAX_DEFASAGEM_DIAS = 45
 DATAS = list(pd.date_range("2018-03-31", "2025-06-30", freq="QE")) + [pd.Timestamp("2025-08-31")]
 RAW = os.path.join("data", "raw")
 REG = os.path.join(RAW, "registro_coleta.csv")
 COLS_REG = ["id_fonte", "data_consulta", "momento_consulta", "url", "arquivo_original",
             "sha256", "status_http", "erro", "descricao"]
+
+INDICADORES_MEMPOOL = [
+    ("capacidade_btc", "total_capacity", "BTC", 1e-8),
+    ("canais", "channel_count", "unidades", 1),
+    ("nos_tor", "tor_nodes", "unidades", 1),
+    ("nos_clearnet", "clearnet_nodes", "unidades", 1),
+    ("nos_nao_anunciados", "unannounced_nodes", "unidades", 1),
+    ("nos_clearnet_tor", "clearnet_tor_nodes", "unidades", 1),
+]
 
 print("Arquivos em data/raw:", sorted(os.listdir(RAW)) if os.path.isdir(RAW) else "PASTA NAO EXISTE")
 reg = pd.read_csv(REG) if os.path.exists(REG) else pd.DataFrame(columns=COLS_REG)
@@ -34,22 +52,12 @@ def ultimo(id_fonte):
     r = reg[reg["id_fonte"] == id_fonte]
     return None if r.empty else r.iloc[-1]
 
-def descreve(nome, dados):
-    print(f"[{nome}] tipo:", type(dados).__name__)
-    if isinstance(dados, dict):
-        print(f"[{nome}] chaves:", list(dados.keys())[:30])
-    elif isinstance(dados, list) and dados:
-        print(f"[{nome}] n itens:", len(dados))
-        print(f"[{nome}] primeiro item:", dados[0])
-        print(f"[{nome}] ultimo item:", dados[-1])
-
 def carrega_mempool():
     r = ultimo("mempool_lightning")
     if r is None:
         print("mempool: sem arquivo baixado")
         return None, None
     dados = json.load(open(os.path.join(RAW, r["arquivo_original"]), encoding="utf-8"))
-    descreve("mempool", dados)
     if isinstance(dados, dict):
         for chave in ("data", "statistics", "items"):
             if chave in dados:
@@ -57,8 +65,11 @@ def carrega_mempool():
                 break
     df = pd.DataFrame(dados)
     print("mempool colunas:", list(df.columns))
-    df["obs"] = pd.to_datetime(df["added"], utc=True).dt.tz_localize(None).dt.normalize()
-    return df.sort_values("obs"), r
+    df["obs"] = pd.to_datetime(df["added"], unit="s").dt.normalize()
+    df = df.sort_values("obs")
+    print("mempool registros:", len(df), "| primeira obs:", df["obs"].min().date(),
+          "| ultima obs:", df["obs"].max().date())
+    return df, r
 
 def carrega_defillama():
     for fid in ("defillama_lightning", "defillama_lightning_alt"):
@@ -66,27 +77,34 @@ def carrega_defillama():
         if r is None:
             continue
         dados = json.load(open(os.path.join(RAW, r["arquivo_original"]), encoding="utf-8"))
-        descreve(fid, dados)
         tvl = dados.get("tvl") or dados.get("chainTvls", {}).get("Bitcoin", {}).get("tvl")
         if tvl:
             df = pd.DataFrame(tvl)
-            print(fid, "colunas:", list(df.columns))
             df["obs"] = pd.to_datetime(df["date"], unit="s").dt.normalize()
-            return df.sort_values("obs"), r
+            df = df.sort_values("obs")
+            print(fid, "registros:", len(df), "| primeira obs:", df["obs"].min().date(),
+                  "| ultima obs:", df["obs"].max().date())
+            return df, r
     print("defillama: sem serie de TVL utilizavel")
     return None, None
 
 def anterior(df, data):
     base = df[df["obs"] <= data]
-    return None if base.empty else base.iloc[-1]
+    if base.empty:
+        return None
+    o = base.iloc[-1]
+    if (data - o["obs"]).days > MAX_DEFASAGEM_DIAS:
+        return None
+    return o
 
 linhas = []
 try:
     dfm, rm = carrega_mempool()
     if dfm is not None:
-        for ind, col, un, conv in [("capacidade_btc", "total_capacity", "BTC", 1e-8),
-                                   ("nos", "node_count", "unidades", 1),
-                                   ("canais", "channel_count", "unidades", 1)]:
+        for ind, col, un, conv in INDICADORES_MEMPOOL:
+            if col not in dfm.columns:
+                print(f"AVISO: campo '{col}' nao existe no arquivo; indicador '{ind}' ignorado")
+                continue
             for d in DATAS:
                 o = anterior(dfm, d)
                 if o is None:
@@ -121,7 +139,7 @@ os.makedirs("data", exist_ok=True)
 base.to_csv(os.path.join("data", "base_tcc.csv"), index=False)
 
 cob = []
-for ind in ["capacidade_btc", "nos", "canais", "tvl_usd_milhoes"]:
+for ind in [i[0] for i in INDICADORES_MEMPOOL] + ["tvl_usd_milhoes"]:
     b = base[base["indicador"] == ind]
     n_t3 = int(b["tratamentos"].str.contains("T3").sum()) if len(b) else 0
     cob.append([ind, len(DATAS), len(b), len(DATAS) - len(b), n_t3])
