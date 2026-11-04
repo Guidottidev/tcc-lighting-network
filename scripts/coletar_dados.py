@@ -23,12 +23,15 @@ FONTES = [
     ("mempool_lightning", f"mempool_lightning_all_{HOJE}.json",
      "https://mempool.space/api/v1/lightning/statistics/all",
      "mempool.space - estatisticas da Lightning (capacidade, nos, canais)"),
-    ("defillama_lightning", f"defillama_lightning_{HOJE}.json",
-     "https://api.llama.fi/protocol/lightning",
-     "DeFiLlama - TVL da Lightning (slug 'lightning')"),
-    ("defillama_lightning_alt", f"defillama_lightning_network_{HOJE}.json",
+    ("defillama_lightning", f"defillama_lightning_network_{HOJE}.json",
      "https://api.llama.fi/protocol/lightning-network",
-     "DeFiLlama - TVL da Lightning (slug alternativo)"),
+     "DeFiLlama - TVL da Lightning (slug 'lightning-network')"),
+    ("blockchaininfo_fees_usd", f"blockchaininfo_transaction_fees_usd_{HOJE}.json",
+     "https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false",
+     "Blockchain.com - taxas totais diarias em dolares (sem coinbase)"),
+    ("blockchaininfo_n_tx", f"blockchaininfo_n_transactions_{HOJE}.json",
+     "https://api.blockchain.info/charts/n-transactions?timespan=all&format=json&sampled=false",
+     "Blockchain.com - numero de transacoes confirmadas por dia"),
 ]
 
 def sha256(caminho):

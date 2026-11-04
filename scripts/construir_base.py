@@ -88,6 +88,25 @@ def carrega_defillama():
     print("defillama: sem serie de TVL utilizavel")
     return None, None
 
+def carrega_blockchaininfo():
+    r1 = ultimo("blockchaininfo_fees_usd")
+    r2 = ultimo("blockchaininfo_n_tx")
+    if r1 is None or r2 is None:
+        print("blockchain.info: sem arquivos baixados")
+        return None, None
+    f1 = json.load(open(os.path.join(RAW, r1["arquivo_original"]), encoding="utf-8"))
+    f2 = json.load(open(os.path.join(RAW, r2["arquivo_original"]), encoding="utf-8"))
+    d1 = pd.DataFrame(f1["values"]).rename(columns={"x":"ts","y":"fees_usd"})
+    d2 = pd.DataFrame(f2["values"]).rename(columns={"x":"ts","y":"n_tx"})
+    df = pd.merge(d1, d2, on="ts", how="inner")
+    df["obs"] = pd.to_datetime(df["ts"], unit="s").dt.normalize()
+    df = df.sort_values("obs")
+    df = df[df["n_tx"] > 0]
+    df["custo_onchain_usd"] = df["fees_usd"] / df["n_tx"]
+    print("blockchain.info registros:", len(df), "| primeira obs:", df["obs"].min().date(),
+          "| ultima obs:", df["obs"].max().date())
+    return df, r1
+
 def anterior(df, data):
     base = df[df["obs"] <= data]
     if base.empty:
@@ -132,6 +151,21 @@ except Exception:
     print("ERRO ao tratar DeFiLlama:")
     traceback.print_exc()
 
+try:
+    dfb, rb = carrega_blockchaininfo()
+    if dfb is not None:
+        for d in DATAS:
+            o = anterior(dfb, d)
+            if o is None:
+                continue
+            trat = ["T5"] + (["T3"] if o["obs"] != d else [])
+            linhas.append([d.date(), o["obs"].date(), rb["data_consulta"], "custo_onchain_usd",
+                           float(o["custo_onchain_usd"]), "USD/tx", "Blockchain.com",
+                           rb["url"], rb["arquivo_original"], ";".join(trat)])
+except Exception:
+    print("ERRO ao tratar Blockchain.com:")
+    traceback.print_exc()
+
 cols = ["data_referencia", "data_observacao", "data_consulta", "indicador", "valor",
         "unidade", "fonte", "url", "arquivo_original", "tratamentos"]
 base = pd.DataFrame(linhas, columns=cols)
@@ -139,7 +173,7 @@ os.makedirs("data", exist_ok=True)
 base.to_csv(os.path.join("data", "base_tcc.csv"), index=False)
 
 cob = []
-for ind in [i[0] for i in INDICADORES_MEMPOOL] + ["tvl_usd_milhoes"]:
+for ind in [i[0] for i in INDICADORES_MEMPOOL] + ["tvl_usd_milhoes", "custo_onchain_usd"]:
     b = base[base["indicador"] == ind]
     n_t3 = int(b["tratamentos"].str.contains("T3").sum()) if len(b) else 0
     cob.append([ind, len(DATAS), len(b), len(DATAS) - len(b), n_t3])

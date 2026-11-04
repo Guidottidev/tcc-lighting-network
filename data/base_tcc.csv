@@ -1,176 +1,207 @@
 data_referencia,data_observacao,data_consulta,indicador,valor,unidade,fonte,url,arquivo_original,tratamentos
-2018-03-31,2018-03-31,2026-11-03,capacidade_btc,0.17627216,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2018-06-30,2018-06-30,2026-11-03,capacidade_btc,0.01357994,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2018-09-30,2018-09-30,2026-11-03,capacidade_btc,0.62623524,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2018-12-31,2018-12-31,2026-11-03,capacidade_btc,6.79877095,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2019-03-31,2019-03-18,2026-11-03,capacidade_btc,572.9613559100001,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
-2019-06-30,2019-06-28,2026-11-03,capacidade_btc,696.29804151,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
-2019-09-30,2019-09-30,2026-11-03,capacidade_btc,654.52593265,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2019-12-31,2019-11-16,2026-11-03,capacidade_btc,618.169622,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
-2020-03-31,2020-03-31,2026-11-03,capacidade_btc,704.96457408,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2020-06-30,2020-06-30,2026-11-03,capacidade_btc,735.10160671,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2020-09-30,2020-09-30,2026-11-03,capacidade_btc,841.24969872,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2020-12-31,2020-12-31,2026-11-03,capacidade_btc,802.09122308,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2021-03-31,2021-03-31,2026-11-03,capacidade_btc,911.38467009,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2021-06-30,2021-06-30,2026-11-03,capacidade_btc,1320.39029044,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2021-09-30,2021-09-29,2026-11-03,capacidade_btc,2147.9717516,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
-2022-03-31,2022-03-31,2026-11-03,capacidade_btc,3173.1907543,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2022-06-30,2022-06-13,2026-11-03,capacidade_btc,3205.84191808,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
-2022-09-30,2022-09-30,2026-11-03,capacidade_btc,4923.76805584,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2022-12-31,2022-12-31,2026-11-03,capacidade_btc,5156.87633815,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2023-03-31,2023-03-31,2026-11-03,capacidade_btc,5427.81262693,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2023-06-30,2023-06-30,2026-11-03,capacidade_btc,5490.419244780001,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2023-09-30,2023-08-25,2026-11-03,capacidade_btc,4732.97093851,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3;T1
-2024-12-31,2024-12-31,2026-11-03,capacidade_btc,5052.47226693,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2025-03-31,2025-03-31,2026-11-03,capacidade_btc,4375.46691079,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2025-06-30,2025-06-30,2026-11-03,capacidade_btc,4024.11796119,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2025-08-31,2025-08-31,2026-11-03,capacidade_btc,3923.77629119,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T1
-2018-03-31,2018-03-31,2026-11-03,canais,4.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-06-30,2018-06-30,2026-11-03,canais,6.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-09-30,2018-09-30,2026-11-03,canais,84.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-12-31,2018-12-31,2026-11-03,canais,304.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2019-03-31,2019-03-18,2026-11-03,canais,24376.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2019-06-30,2019-06-28,2026-11-03,canais,25778.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2019-09-30,2019-09-30,2026-11-03,canais,29355.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2019-12-31,2019-11-16,2026-11-03,canais,26519.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2020-03-31,2020-03-31,2026-11-03,canais,29141.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2020-06-30,2020-06-30,2026-11-03,canais,29557.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2020-09-30,2020-09-30,2026-11-03,canais,29512.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2020-12-31,2020-12-31,2026-11-03,canais,29353.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-03-31,2021-03-31,2026-11-03,canais,34318.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-06-30,2021-06-30,2026-11-03,canais,44743.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-09-30,2021-09-29,2026-11-03,canais,60280.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2022-03-31,2022-03-31,2026-11-03,canais,82646.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2022-06-30,2022-06-13,2026-11-03,canais,74508.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2022-09-30,2022-09-30,2026-11-03,canais,81504.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2022-12-31,2022-12-31,2026-11-03,canais,73848.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2023-03-31,2023-03-31,2026-11-03,canais,73068.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2023-06-30,2023-06-30,2026-11-03,canais,69199.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2023-09-30,2023-08-25,2026-11-03,canais,66832.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2024-12-31,2024-12-31,2026-11-03,canais,42055.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2025-03-31,2025-03-31,2026-11-03,canais,38777.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2025-06-30,2025-06-30,2026-11-03,canais,34354.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2025-08-31,2025-08-31,2026-11-03,canais,41563.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-03-31,2018-03-31,2026-11-03,nos_tor,0.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-06-30,2018-06-30,2026-11-03,nos_tor,1.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-09-30,2018-09-30,2026-11-03,nos_tor,4.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-12-31,2018-12-31,2026-11-03,nos_tor,22.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2019-03-31,2019-03-18,2026-11-03,nos_tor,666.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2019-06-30,2019-06-28,2026-11-03,nos_tor,987.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2019-09-30,2019-09-30,2026-11-03,nos_tor,1312.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2019-12-31,2019-11-16,2026-11-03,nos_tor,1350.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2020-03-31,2020-03-31,2026-11-03,nos_tor,1779.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2020-06-30,2020-06-30,2026-11-03,nos_tor,1971.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2020-09-30,2020-09-30,2026-11-03,nos_tor,2182.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2020-12-31,2020-12-31,2026-11-03,nos_tor,2548.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-03-31,2021-03-31,2026-11-03,nos_tor,4102.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-06-30,2021-06-30,2026-11-03,nos_tor,6338.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-09-30,2021-09-29,2026-11-03,nos_tor,8412.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2022-03-31,2022-03-31,2026-11-03,nos_tor,11283.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2022-06-30,2022-06-13,2026-11-03,nos_tor,10915.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2022-09-30,2022-09-30,2026-11-03,nos_tor,11389.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2022-12-31,2022-12-31,2026-11-03,nos_tor,10461.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2023-03-31,2023-03-31,2026-11-03,nos_tor,10564.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2023-06-30,2023-06-30,2026-11-03,nos_tor,10918.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2023-09-30,2023-08-25,2026-11-03,nos_tor,10746.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2024-12-31,2024-12-31,2026-11-03,nos_tor,10006.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2025-03-31,2025-03-31,2026-11-03,nos_tor,8063.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2025-06-30,2025-06-30,2026-11-03,nos_tor,6982.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2025-08-31,2025-08-31,2026-11-03,nos_tor,9836.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-03-31,2018-03-31,2026-11-03,nos_clearnet,6.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-06-30,2018-06-30,2026-11-03,nos_clearnet,9.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-09-30,2018-09-30,2026-11-03,nos_clearnet,55.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-12-31,2018-12-31,2026-11-03,nos_clearnet,211.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2019-03-31,2019-03-18,2026-11-03,nos_clearnet,1958.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2019-06-30,2019-06-28,2026-11-03,nos_clearnet,2122.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2019-09-30,2019-09-30,2026-11-03,nos_clearnet,2162.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2019-12-31,2019-11-16,2026-11-03,nos_clearnet,2080.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2020-03-31,2020-03-31,2026-11-03,nos_clearnet,2212.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2020-06-30,2020-06-30,2026-11-03,nos_clearnet,2496.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2020-09-30,2020-09-30,2026-11-03,nos_clearnet,2435.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2020-12-31,2020-12-31,2026-11-03,nos_clearnet,2725.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-03-31,2021-03-31,2026-11-03,nos_clearnet,2816.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-06-30,2021-06-30,2026-11-03,nos_clearnet,2640.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-09-30,2021-09-29,2026-11-03,nos_clearnet,2377.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2022-03-31,2022-03-31,2026-11-03,nos_clearnet,2397.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2022-06-30,2022-06-13,2026-11-03,nos_clearnet,2313.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2022-09-30,2022-09-30,2026-11-03,nos_clearnet,2290.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2022-12-31,2022-12-31,2026-11-03,nos_clearnet,2242.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2023-03-31,2023-03-31,2026-11-03,nos_clearnet,2250.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2023-06-30,2023-06-30,2026-11-03,nos_clearnet,2124.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2023-09-30,2023-08-25,2026-11-03,nos_clearnet,2118.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2024-12-31,2024-12-31,2026-11-03,nos_clearnet,2309.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2025-03-31,2025-03-31,2026-11-03,nos_clearnet,1931.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2025-06-30,2025-06-30,2026-11-03,nos_clearnet,1935.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2025-08-31,2025-08-31,2026-11-03,nos_clearnet,3865.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-03-31,2018-03-31,2026-11-03,nos_nao_anunciados,1.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-06-30,2018-06-30,2026-11-03,nos_nao_anunciados,2.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-09-30,2018-09-30,2026-11-03,nos_nao_anunciados,9.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-12-31,2018-12-31,2026-11-03,nos_nao_anunciados,23.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2019-03-31,2019-03-18,2026-11-03,nos_nao_anunciados,663.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2019-06-30,2019-06-28,2026-11-03,nos_nao_anunciados,674.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2019-09-30,2019-09-30,2026-11-03,nos_nao_anunciados,1006.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2019-12-31,2019-11-16,2026-11-03,nos_nao_anunciados,806.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2020-03-31,2020-03-31,2026-11-03,nos_nao_anunciados,885.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2020-06-30,2020-06-30,2026-11-03,nos_nao_anunciados,914.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2020-09-30,2020-09-30,2026-11-03,nos_nao_anunciados,905.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2020-12-31,2020-12-31,2026-11-03,nos_nao_anunciados,883.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-03-31,2021-03-31,2026-11-03,nos_nao_anunciados,1319.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-06-30,2021-06-30,2026-11-03,nos_nao_anunciados,1277.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-09-30,2021-09-29,2026-11-03,nos_nao_anunciados,2083.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2022-03-31,2022-03-31,2026-11-03,nos_nao_anunciados,4431.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2022-06-30,2022-06-13,2026-11-03,nos_nao_anunciados,887.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2022-09-30,2022-09-30,2026-11-03,nos_nao_anunciados,977.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2022-12-31,2022-12-31,2026-11-03,nos_nao_anunciados,965.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2023-03-31,2023-03-31,2026-11-03,nos_nao_anunciados,989.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2023-06-30,2023-06-30,2026-11-03,nos_nao_anunciados,986.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2023-09-30,2023-08-25,2026-11-03,nos_nao_anunciados,995.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2024-12-31,2024-12-31,2026-11-03,nos_nao_anunciados,1809.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2025-03-31,2025-03-31,2026-11-03,nos_nao_anunciados,1522.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2025-06-30,2025-06-30,2026-11-03,nos_nao_anunciados,1350.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2025-08-31,2025-08-31,2026-11-03,nos_nao_anunciados,1921.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-03-31,2018-03-31,2026-11-03,nos_clearnet_tor,1.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-06-30,2018-06-30,2026-11-03,nos_clearnet_tor,0.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-09-30,2018-09-30,2026-11-03,nos_clearnet_tor,5.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2018-12-31,2018-12-31,2026-11-03,nos_clearnet_tor,22.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2019-03-31,2019-03-18,2026-11-03,nos_clearnet_tor,178.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2019-06-30,2019-06-28,2026-11-03,nos_clearnet_tor,252.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2019-09-30,2019-09-30,2026-11-03,nos_clearnet_tor,288.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2019-12-31,2019-11-16,2026-11-03,nos_clearnet_tor,297.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2020-03-31,2020-03-31,2026-11-03,nos_clearnet_tor,359.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2020-06-30,2020-06-30,2026-11-03,nos_clearnet_tor,408.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2020-09-30,2020-09-30,2026-11-03,nos_clearnet_tor,435.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2020-12-31,2020-12-31,2026-11-03,nos_clearnet_tor,457.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-03-31,2021-03-31,2026-11-03,nos_clearnet_tor,529.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-06-30,2021-06-30,2026-11-03,nos_clearnet_tor,586.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-09-30,2021-09-29,2026-11-03,nos_clearnet_tor,810.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2022-03-31,2022-03-31,2026-11-03,nos_clearnet_tor,1044.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2022-06-30,2022-06-13,2026-11-03,nos_clearnet_tor,1059.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2022-09-30,2022-09-30,2026-11-03,nos_clearnet_tor,1184.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2022-12-31,2022-12-31,2026-11-03,nos_clearnet_tor,1272.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2023-03-31,2023-03-31,2026-11-03,nos_clearnet_tor,1387.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2023-06-30,2023-06-30,2026-11-03,nos_clearnet_tor,1446.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2023-09-30,2023-08-25,2026-11-03,nos_clearnet_tor,1482.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,T3
-2024-12-31,2024-12-31,2026-11-03,nos_clearnet_tor,1420.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2025-03-31,2025-03-31,2026-11-03,nos_clearnet_tor,1279.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2025-06-30,2025-06-30,2026-11-03,nos_clearnet_tor,1238.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2025-08-31,2025-08-31,2026-11-03,nos_clearnet_tor,1487.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-03.json,
-2021-03-31,2021-03-31,2026-11-03,tvl_usd_milhoes,69.032777,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2021-06-30,2021-06-30,2026-11-03,tvl_usd_milhoes,57.793658,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2021-09-30,2021-09-30,2026-11-03,tvl_usd_milhoes,129.888401,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2021-12-31,2021-12-31,2026-11-03,tvl_usd_milhoes,155.351001,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2022-03-31,2022-03-31,2026-11-03,tvl_usd_milhoes,171.197661,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2022-06-30,2022-06-30,2026-11-03,tvl_usd_milhoes,80.338075,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2022-09-30,2022-09-30,2026-11-03,tvl_usd_milhoes,95.94177,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2022-12-31,2022-12-31,2026-11-03,tvl_usd_milhoes,85.185798,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2023-03-31,2023-03-31,2026-11-03,tvl_usd_milhoes,153.060826,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2023-06-30,2023-06-30,2026-11-03,tvl_usd_milhoes,165.643586,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2023-09-30,2023-09-30,2026-11-03,tvl_usd_milhoes,118.862126,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2023-12-31,2023-12-31,2026-11-03,tvl_usd_milhoes,210.874829,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2024-03-31,2024-03-31,2026-11-03,tvl_usd_milhoes,319.071887,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2024-06-30,2024-06-30,2026-11-03,tvl_usd_milhoes,310.809976,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2024-09-30,2024-09-30,2026-11-03,tvl_usd_milhoes,344.812232,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2024-12-31,2024-12-31,2026-11-03,tvl_usd_milhoes,468.72241,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2025-03-31,2025-03-31,2026-11-03,tvl_usd_milhoes,365.126443,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2025-06-30,2025-06-30,2026-11-03,tvl_usd_milhoes,447.920628,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
-2025-08-31,2025-08-31,2026-11-03,tvl_usd_milhoes,420.275981,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-03.json,T1
+2018-03-31,2018-03-31,2026-11-04,capacidade_btc,0.17627216,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2018-06-30,2018-06-30,2026-11-04,capacidade_btc,0.01357994,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2018-09-30,2018-09-30,2026-11-04,capacidade_btc,0.62623524,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2018-12-31,2018-12-31,2026-11-04,capacidade_btc,6.79877095,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2019-03-31,2019-03-18,2026-11-04,capacidade_btc,572.9613559100001,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3;T1
+2019-06-30,2019-06-28,2026-11-04,capacidade_btc,696.29804151,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3;T1
+2019-09-30,2019-09-30,2026-11-04,capacidade_btc,654.52593265,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2019-12-31,2019-11-16,2026-11-04,capacidade_btc,618.169622,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3;T1
+2020-03-31,2020-03-31,2026-11-04,capacidade_btc,704.96457408,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2020-06-30,2020-06-30,2026-11-04,capacidade_btc,735.10160671,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2020-09-30,2020-09-30,2026-11-04,capacidade_btc,841.24969872,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2020-12-31,2020-12-31,2026-11-04,capacidade_btc,802.09122308,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2021-03-31,2021-03-31,2026-11-04,capacidade_btc,911.38467009,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2021-06-30,2021-06-30,2026-11-04,capacidade_btc,1320.39029044,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2021-09-30,2021-09-29,2026-11-04,capacidade_btc,2147.9717516,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3;T1
+2022-03-31,2022-03-31,2026-11-04,capacidade_btc,3173.1907543,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2022-06-30,2022-06-13,2026-11-04,capacidade_btc,3205.84191808,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3;T1
+2022-09-30,2022-09-30,2026-11-04,capacidade_btc,4923.76805584,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2022-12-31,2022-12-31,2026-11-04,capacidade_btc,5156.87633815,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2023-03-31,2023-03-31,2026-11-04,capacidade_btc,5427.81262693,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2023-06-30,2023-06-30,2026-11-04,capacidade_btc,5490.419244780001,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2023-09-30,2023-08-25,2026-11-04,capacidade_btc,4732.97093851,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3;T1
+2024-12-31,2024-12-31,2026-11-04,capacidade_btc,5052.47226693,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2025-03-31,2025-03-31,2026-11-04,capacidade_btc,4382.57174614,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2025-06-30,2025-06-30,2026-11-04,capacidade_btc,4111.23130753,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2025-08-31,2025-08-31,2026-11-04,capacidade_btc,3923.90017294,BTC,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T1
+2018-03-31,2018-03-31,2026-11-04,canais,4.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-06-30,2018-06-30,2026-11-04,canais,6.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-09-30,2018-09-30,2026-11-04,canais,84.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-12-31,2018-12-31,2026-11-04,canais,304.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2019-03-31,2019-03-18,2026-11-04,canais,24376.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2019-06-30,2019-06-28,2026-11-04,canais,25778.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2019-09-30,2019-09-30,2026-11-04,canais,29355.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2019-12-31,2019-11-16,2026-11-04,canais,26519.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2020-03-31,2020-03-31,2026-11-04,canais,29141.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2020-06-30,2020-06-30,2026-11-04,canais,29557.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2020-09-30,2020-09-30,2026-11-04,canais,29512.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2020-12-31,2020-12-31,2026-11-04,canais,29353.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-03-31,2021-03-31,2026-11-04,canais,34318.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-06-30,2021-06-30,2026-11-04,canais,44743.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-09-30,2021-09-29,2026-11-04,canais,60280.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2022-03-31,2022-03-31,2026-11-04,canais,82646.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2022-06-30,2022-06-13,2026-11-04,canais,74508.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2022-09-30,2022-09-30,2026-11-04,canais,81504.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2022-12-31,2022-12-31,2026-11-04,canais,73848.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2023-03-31,2023-03-31,2026-11-04,canais,73068.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2023-06-30,2023-06-30,2026-11-04,canais,69199.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2023-09-30,2023-08-25,2026-11-04,canais,66832.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2024-12-31,2024-12-31,2026-11-04,canais,42055.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2025-03-31,2025-03-31,2026-11-04,canais,39476.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2025-06-30,2025-06-30,2026-11-04,canais,38770.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2025-08-31,2025-08-31,2026-11-04,canais,41547.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-03-31,2018-03-31,2026-11-04,nos_tor,0.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-06-30,2018-06-30,2026-11-04,nos_tor,1.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-09-30,2018-09-30,2026-11-04,nos_tor,4.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-12-31,2018-12-31,2026-11-04,nos_tor,22.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2019-03-31,2019-03-18,2026-11-04,nos_tor,666.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2019-06-30,2019-06-28,2026-11-04,nos_tor,987.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2019-09-30,2019-09-30,2026-11-04,nos_tor,1312.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2019-12-31,2019-11-16,2026-11-04,nos_tor,1350.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2020-03-31,2020-03-31,2026-11-04,nos_tor,1779.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2020-06-30,2020-06-30,2026-11-04,nos_tor,1971.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2020-09-30,2020-09-30,2026-11-04,nos_tor,2182.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2020-12-31,2020-12-31,2026-11-04,nos_tor,2548.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-03-31,2021-03-31,2026-11-04,nos_tor,4102.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-06-30,2021-06-30,2026-11-04,nos_tor,6338.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-09-30,2021-09-29,2026-11-04,nos_tor,8412.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2022-03-31,2022-03-31,2026-11-04,nos_tor,11283.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2022-06-30,2022-06-13,2026-11-04,nos_tor,10915.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2022-09-30,2022-09-30,2026-11-04,nos_tor,11389.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2022-12-31,2022-12-31,2026-11-04,nos_tor,10461.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2023-03-31,2023-03-31,2026-11-04,nos_tor,10564.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2023-06-30,2023-06-30,2026-11-04,nos_tor,10918.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2023-09-30,2023-08-25,2026-11-04,nos_tor,10746.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2024-12-31,2024-12-31,2026-11-04,nos_tor,10006.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2025-03-31,2025-03-31,2026-11-04,nos_tor,8357.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2025-06-30,2025-06-30,2026-11-04,nos_tor,8005.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2025-08-31,2025-08-31,2026-11-04,nos_tor,9810.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-03-31,2018-03-31,2026-11-04,nos_clearnet,6.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-06-30,2018-06-30,2026-11-04,nos_clearnet,9.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-09-30,2018-09-30,2026-11-04,nos_clearnet,55.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-12-31,2018-12-31,2026-11-04,nos_clearnet,211.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2019-03-31,2019-03-18,2026-11-04,nos_clearnet,1958.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2019-06-30,2019-06-28,2026-11-04,nos_clearnet,2122.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2019-09-30,2019-09-30,2026-11-04,nos_clearnet,2162.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2019-12-31,2019-11-16,2026-11-04,nos_clearnet,2080.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2020-03-31,2020-03-31,2026-11-04,nos_clearnet,2212.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2020-06-30,2020-06-30,2026-11-04,nos_clearnet,2496.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2020-09-30,2020-09-30,2026-11-04,nos_clearnet,2435.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2020-12-31,2020-12-31,2026-11-04,nos_clearnet,2725.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-03-31,2021-03-31,2026-11-04,nos_clearnet,2816.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-06-30,2021-06-30,2026-11-04,nos_clearnet,2640.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-09-30,2021-09-29,2026-11-04,nos_clearnet,2377.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2022-03-31,2022-03-31,2026-11-04,nos_clearnet,2397.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2022-06-30,2022-06-13,2026-11-04,nos_clearnet,2313.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2022-09-30,2022-09-30,2026-11-04,nos_clearnet,2290.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2022-12-31,2022-12-31,2026-11-04,nos_clearnet,2242.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2023-03-31,2023-03-31,2026-11-04,nos_clearnet,2250.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2023-06-30,2023-06-30,2026-11-04,nos_clearnet,2124.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2023-09-30,2023-08-25,2026-11-04,nos_clearnet,2118.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2024-12-31,2024-12-31,2026-11-04,nos_clearnet,2309.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2025-03-31,2025-03-31,2026-11-04,nos_clearnet,1642.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2025-06-30,2025-06-30,2026-11-04,nos_clearnet,1594.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2025-08-31,2025-08-31,2026-11-04,nos_clearnet,3809.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-03-31,2018-03-31,2026-11-04,nos_nao_anunciados,1.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-06-30,2018-06-30,2026-11-04,nos_nao_anunciados,2.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-09-30,2018-09-30,2026-11-04,nos_nao_anunciados,9.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-12-31,2018-12-31,2026-11-04,nos_nao_anunciados,23.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2019-03-31,2019-03-18,2026-11-04,nos_nao_anunciados,663.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2019-06-30,2019-06-28,2026-11-04,nos_nao_anunciados,674.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2019-09-30,2019-09-30,2026-11-04,nos_nao_anunciados,1006.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2019-12-31,2019-11-16,2026-11-04,nos_nao_anunciados,806.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2020-03-31,2020-03-31,2026-11-04,nos_nao_anunciados,885.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2020-06-30,2020-06-30,2026-11-04,nos_nao_anunciados,914.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2020-09-30,2020-09-30,2026-11-04,nos_nao_anunciados,905.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2020-12-31,2020-12-31,2026-11-04,nos_nao_anunciados,883.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-03-31,2021-03-31,2026-11-04,nos_nao_anunciados,1319.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-06-30,2021-06-30,2026-11-04,nos_nao_anunciados,1277.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-09-30,2021-09-29,2026-11-04,nos_nao_anunciados,2083.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2022-03-31,2022-03-31,2026-11-04,nos_nao_anunciados,4431.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2022-06-30,2022-06-13,2026-11-04,nos_nao_anunciados,887.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2022-09-30,2022-09-30,2026-11-04,nos_nao_anunciados,977.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2022-12-31,2022-12-31,2026-11-04,nos_nao_anunciados,965.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2023-03-31,2023-03-31,2026-11-04,nos_nao_anunciados,989.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2023-06-30,2023-06-30,2026-11-04,nos_nao_anunciados,986.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2023-09-30,2023-08-25,2026-11-04,nos_nao_anunciados,995.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2024-12-31,2024-12-31,2026-11-04,nos_nao_anunciados,1809.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2025-03-31,2025-03-31,2026-11-04,nos_nao_anunciados,1131.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2025-06-30,2025-06-30,2026-11-04,nos_nao_anunciados,586.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2025-08-31,2025-08-31,2026-11-04,nos_nao_anunciados,2006.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-03-31,2018-03-31,2026-11-04,nos_clearnet_tor,1.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-06-30,2018-06-30,2026-11-04,nos_clearnet_tor,0.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-09-30,2018-09-30,2026-11-04,nos_clearnet_tor,5.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2018-12-31,2018-12-31,2026-11-04,nos_clearnet_tor,22.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2019-03-31,2019-03-18,2026-11-04,nos_clearnet_tor,178.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2019-06-30,2019-06-28,2026-11-04,nos_clearnet_tor,252.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2019-09-30,2019-09-30,2026-11-04,nos_clearnet_tor,288.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2019-12-31,2019-11-16,2026-11-04,nos_clearnet_tor,297.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2020-03-31,2020-03-31,2026-11-04,nos_clearnet_tor,359.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2020-06-30,2020-06-30,2026-11-04,nos_clearnet_tor,408.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2020-09-30,2020-09-30,2026-11-04,nos_clearnet_tor,435.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2020-12-31,2020-12-31,2026-11-04,nos_clearnet_tor,457.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-03-31,2021-03-31,2026-11-04,nos_clearnet_tor,529.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-06-30,2021-06-30,2026-11-04,nos_clearnet_tor,586.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-09-30,2021-09-29,2026-11-04,nos_clearnet_tor,810.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2022-03-31,2022-03-31,2026-11-04,nos_clearnet_tor,1044.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2022-06-30,2022-06-13,2026-11-04,nos_clearnet_tor,1059.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2022-09-30,2022-09-30,2026-11-04,nos_clearnet_tor,1184.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2022-12-31,2022-12-31,2026-11-04,nos_clearnet_tor,1272.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2023-03-31,2023-03-31,2026-11-04,nos_clearnet_tor,1387.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2023-06-30,2023-06-30,2026-11-04,nos_clearnet_tor,1446.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2023-09-30,2023-08-25,2026-11-04,nos_clearnet_tor,1482.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,T3
+2024-12-31,2024-12-31,2026-11-04,nos_clearnet_tor,1420.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2025-03-31,2025-03-31,2026-11-04,nos_clearnet_tor,1295.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2025-06-30,2025-06-30,2026-11-04,nos_clearnet_tor,1306.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2025-08-31,2025-08-31,2026-11-04,nos_clearnet_tor,1483.0,unidades,mempool.space,https://mempool.space/api/v1/lightning/statistics/all,mempool_lightning_all_2026-11-04.json,
+2021-03-31,2021-03-31,2026-11-04,tvl_usd_milhoes,69.032777,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2021-06-30,2021-06-30,2026-11-04,tvl_usd_milhoes,57.793658,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2021-09-30,2021-09-30,2026-11-04,tvl_usd_milhoes,129.888401,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2021-12-31,2021-12-31,2026-11-04,tvl_usd_milhoes,155.351001,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2022-03-31,2022-03-31,2026-11-04,tvl_usd_milhoes,171.197661,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2022-06-30,2022-06-30,2026-11-04,tvl_usd_milhoes,80.338075,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2022-09-30,2022-09-30,2026-11-04,tvl_usd_milhoes,95.94177,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2022-12-31,2022-12-31,2026-11-04,tvl_usd_milhoes,85.185798,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2023-03-31,2023-03-31,2026-11-04,tvl_usd_milhoes,153.060826,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2023-06-30,2023-06-30,2026-11-04,tvl_usd_milhoes,165.643586,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2023-09-30,2023-09-30,2026-11-04,tvl_usd_milhoes,118.862126,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2023-12-31,2023-12-31,2026-11-04,tvl_usd_milhoes,210.874829,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2024-03-31,2024-03-31,2026-11-04,tvl_usd_milhoes,319.071887,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2024-06-30,2024-06-30,2026-11-04,tvl_usd_milhoes,310.809976,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2024-09-30,2024-09-30,2026-11-04,tvl_usd_milhoes,344.812232,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2024-12-31,2024-12-31,2026-11-04,tvl_usd_milhoes,468.72241,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2025-03-31,2025-03-31,2026-11-04,tvl_usd_milhoes,365.126443,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2025-06-30,2025-06-30,2026-11-04,tvl_usd_milhoes,447.920628,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2025-08-31,2025-08-31,2026-11-04,tvl_usd_milhoes,420.275981,milhoes USD,DeFiLlama,https://api.llama.fi/protocol/lightning-network,defillama_lightning_network_2026-11-04.json,T1
+2018-03-31,2018-03-31,2026-11-04,custo_onchain_usd,0.9548272932267102,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2018-06-30,2018-06-30,2026-11-04,custo_onchain_usd,0.8302224903077182,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2018-09-30,2018-09-30,2026-11-04,custo_onchain_usd,0.4883012363383699,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2018-12-31,2018-12-31,2026-11-04,custo_onchain_usd,0.23447661739056544,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2019-03-31,2019-03-31,2026-11-04,custo_onchain_usd,0.477554645129453,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2019-06-30,2019-06-30,2026-11-04,custo_onchain_usd,3.6616768467123735,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2019-09-30,2019-09-30,2026-11-04,custo_onchain_usd,1.069762019792759,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2019-12-31,2019-12-31,2026-11-04,custo_onchain_usd,0.364281407195698,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2020-03-31,2020-03-31,2026-11-04,custo_onchain_usd,0.646512395766152,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2020-06-30,2020-06-30,2026-11-04,custo_onchain_usd,1.311118435572526,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2020-09-30,2020-09-30,2026-11-04,custo_onchain_usd,2.901579780666801,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2020-12-31,2020-12-31,2026-11-04,custo_onchain_usd,9.50776350509401,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2021-03-31,2021-03-31,2026-11-04,custo_onchain_usd,18.10024900171318,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2021-06-30,2021-06-30,2026-11-04,custo_onchain_usd,9.95094388674659,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2021-09-30,2021-09-30,2026-11-04,custo_onchain_usd,2.1772112088688393,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2021-12-31,2021-12-31,2026-11-04,custo_onchain_usd,3.1601994690283175,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2022-03-31,2022-03-31,2026-11-04,custo_onchain_usd,2.763887606136267,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2022-06-30,2022-06-30,2026-11-04,custo_onchain_usd,1.1739283349718186,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2022-09-30,2022-09-30,2026-11-04,custo_onchain_usd,1.1318848733991258,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2022-12-31,2022-12-31,2026-11-04,custo_onchain_usd,0.8339336332358197,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2023-03-31,2023-03-31,2026-11-04,custo_onchain_usd,2.9833380559780265,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2023-06-30,2023-06-30,2026-11-04,custo_onchain_usd,2.382574843114981,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2023-09-30,2023-09-30,2026-11-04,custo_onchain_usd,2.111771187488584,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2023-12-31,2023-12-31,2026-11-04,custo_onchain_usd,20.582189462138242,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2024-03-31,2024-03-31,2026-11-04,custo_onchain_usd,6.244853661670976,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2024-06-30,2024-06-30,2026-11-04,custo_onchain_usd,1.6372404825922586,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2024-09-30,2024-09-30,2026-11-04,custo_onchain_usd,0.7911137056018267,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2024-12-31,2024-12-31,2026-11-04,custo_onchain_usd,1.7796807210115109,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2025-03-31,2025-03-31,2026-11-04,custo_onchain_usd,1.2765215937719103,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2025-06-30,2025-06-30,2026-11-04,custo_onchain_usd,1.342759621298207,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5
+2025-08-31,2025-08-31,2026-11-04,custo_onchain_usd,0.6947888800787889,USD/tx,Blockchain.com,https://api.blockchain.info/charts/transaction-fees-usd?timespan=all&format=json&sampled=false,blockchaininfo_transaction_fees_usd_2026-11-04.json,T5

@@ -10,9 +10,12 @@ Requer: pandas, matplotlib
 - Os quatro componentes de nos sao mostrados separadamente, sem soma: a definicao de
   'total de nos' deve ser confirmada na documentacao da fonte (clearnet_tor_nodes
   pode sobrepor outros componentes).
-- As figuras de TPS e de custo on-chain foram retiradas: a primeira compara metricas
-  incompativeis; a segunda nao tem fonte verificada.
-Saidas: figuras/fig1_capacidade.png, fig2_tvl.png, fig3_canais.png, fig4_nos.png
+- A figura de TPS foi retirada (compara metricas incompativeis).
+- A Figura 5 agora mostra o custo on-chain medio por transacao, calculado como
+  total de taxas diarias em dolares dividido pelo numero de transacoes confirmadas
+  no mesmo dia (Blockchain.com). Nao inclui o coinbase, e nao e o custo da Lightning.
+Saidas: figuras/fig1_capacidade.png, fig2_tvl.png, fig3_canais.png,
+fig4_nos.png, fig5_custo_onchain.png
 """
 import os
 import pandas as pd
@@ -78,6 +81,10 @@ if algum:
     estilo(ax)
     nota(fig, "mempool.space")
     salva(fig, "fig4_nos.png")
-else:
-    plt.close(fig)
-    print("sem dados de nos")
+
+uma("custo_onchain_usd",
+    "Custo medio on-chain do Bitcoin por transacao",
+    "US$ por transacao",
+    "Blockchain.com (taxas totais / numero de transacoes)",
+    "fig5_custo_onchain.png")
+
