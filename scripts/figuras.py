@@ -15,7 +15,9 @@ Requer: pandas, matplotlib
   total de taxas diarias em dolares dividido pelo numero de transacoes confirmadas
   no mesmo dia (Blockchain.com). Nao inclui o coinbase, e nao e o custo da Lightning.
 Saidas: figuras/fig1_capacidade.png, fig2_tvl.png, fig3_canais.png,
-fig4_nos.png, fig5_custo_onchain.png
+fig4_nos.png, fig5_custo_onchain.png, fig6_transacoes_onchain.png
+- A Figura 6 mostra o numero de transacoes confirmadas on-chain por dia (Blockchain.com),
+  indicador de uso direto do Bitcoin. Nem toda transacao e um pagamento por bens e servicos.
 """
 import os
 import pandas as pd
@@ -88,3 +90,9 @@ uma("custo_onchain_usd",
     "Blockchain.com (taxas totais / numero de transacoes)",
     "fig5_custo_onchain.png")
 
+
+uma("transacoes_onchain_dia",
+    "Transacoes on-chain do Bitcoin confirmadas por dia",
+    "Transacoes por dia",
+    "Blockchain.com (n-transactions)",
+    "fig6_transacoes_onchain.png")

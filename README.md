@@ -7,7 +7,7 @@ Material suplementar (Apendices A e B) do Trabalho de Conclusao de Curso de Cien
 - `data/base_tcc.csv` - base tratada, em formato longo (uma linha por indicador e data de referencia).
 - `data/cobertura.csv` - quantas das 31 datas de referencia possuem registro em cada indicador.
 - `scripts/` - codigo em Python: `coletar_dados.py`, `construir_base.py` e `figuras.py`.
-- `figuras/` - figuras geradas a partir da base: `fig1_capacidade.png`, `fig2_tvl.png`, `fig3_canais.png`, `fig4_nos.png` e `fig5_custo_onchain.png`.
+- `figuras/` - figuras geradas a partir da base: `fig1_capacidade.png`, `fig2_tvl.png`, `fig3_canais.png`, `fig4_nos.png` e `fig5_custo_onchain.png, fig6_transacoes_onchain.png`.
 - `.github/workflows/coletar-dados.yml` - executa os tres scripts nos servidores do GitHub (acionamento manual em Actions).
 
 ## Fontes
@@ -44,3 +44,8 @@ python scripts/construir_base.py
 python scripts/figuras.py
 ```
 Tambem e possivel executar pela aba Actions do GitHub (workflow "Coletar dados e gerar figuras"). Cada execucao baixa os dados novamente; os resultados podem diferir dos de 04/11/2026 se as fontes tiverem sido revisadas.
+
+
+## Indicador adicional (v6 do TCC)
+
+- `transacoes_onchain_dia`: numero de transacoes confirmadas on-chain por dia (Blockchain.com, serie `n-transactions`), valor bruto da fonte na data de referencia. Indicador de uso direto do Bitcoin; nem toda transacao e um pagamento por bens e servicos (inclui, por exemplo, inscricoes de dados a partir de 2023). Figura 6.

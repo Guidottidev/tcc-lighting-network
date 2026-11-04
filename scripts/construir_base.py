@@ -162,6 +162,12 @@ try:
             linhas.append([d.date(), o["obs"].date(), rb["data_consulta"], "custo_onchain_usd",
                            float(o["custo_onchain_usd"]), "USD/tx", "Blockchain.com",
                            rb["url"], rb["arquivo_original"], ";".join(trat)])
+            # Indicador de uso direto do Bitcoin: transacoes confirmadas on-chain no dia
+            # (valor bruto da fonte, sem calculo; inclui transacoes que nao sao pagamentos).
+            trat2 = ["T3"] if o["obs"] != d else []
+            linhas.append([d.date(), o["obs"].date(), rb["data_consulta"], "transacoes_onchain_dia",
+                           float(o["n_tx"]), "transacoes/dia", "Blockchain.com",
+                           rb["url"], rb["arquivo_original"], ";".join(trat2)])
 except Exception:
     print("ERRO ao tratar Blockchain.com:")
     traceback.print_exc()
@@ -173,7 +179,7 @@ os.makedirs("data", exist_ok=True)
 base.to_csv(os.path.join("data", "base_tcc.csv"), index=False)
 
 cob = []
-for ind in [i[0] for i in INDICADORES_MEMPOOL] + ["tvl_usd_milhoes", "custo_onchain_usd"]:
+for ind in [i[0] for i in INDICADORES_MEMPOOL] + ["tvl_usd_milhoes", "custo_onchain_usd", "transacoes_onchain_dia"]:
     b = base[base["indicador"] == ind]
     n_t3 = int(b["tratamentos"].str.contains("T3").sum()) if len(b) else 0
     cob.append([ind, len(DATAS), len(b), len(DATAS) - len(b), n_t3])
