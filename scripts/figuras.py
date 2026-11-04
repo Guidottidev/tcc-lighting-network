@@ -1,23 +1,24 @@
 # -*- coding: utf-8 -*-
 """
 figuras.py - Etapa 3: gera as figuras a partir de data/base_tcc.csv.
-Uso (na raiz do repositorio): python scripts/figuras.py
+Uso (na raiz do repositório): python scripts/figuras.py
 Requer: pandas, matplotlib
 
-- Le SOMENTE a base. Nao ha numeros escritos no codigo.
-- Plota apenas observacoes reais. Datas de referencia sem registro (T6) ficam como
-  lacuna: a linha e interrompida e NAO e interpolada.
-- Os quatro componentes de nos sao mostrados separadamente, sem soma: a definicao de
-  'total de nos' deve ser confirmada na documentacao da fonte (clearnet_tor_nodes
+- Lê SOMENTE a base. Não há números escritos no código.
+- Plota apenas observações reais. Datas de referência sem registro (T6) ficam como
+  lacuna: a linha é interrompida e NÃO é interpolada.
+- As figuras NÃO trazem título nem fonte dentro da imagem: no texto do TCC, o título
+  vai acima da figura e a fonte abaixo, conforme a norma (ABNT NBR 14724 / IBGE).
+- Os quatro componentes de nós são mostrados separadamente, sem soma: a definição de
+  'total de nós' deve ser confirmada na documentação da fonte (clearnet_tor_nodes
   pode sobrepor outros componentes).
-- A figura de TPS foi retirada (compara metricas incompativeis).
-- A Figura 5 agora mostra o custo on-chain medio por transacao, calculado como
-  total de taxas diarias em dolares dividido pelo numero de transacoes confirmadas
-  no mesmo dia (Blockchain.com). Nao inclui o coinbase, e nao e o custo da Lightning.
-Saidas: figuras/fig1_capacidade.png, fig2_tvl.png, fig3_canais.png,
+- Figura 5: custo on-chain médio por transação = total de taxas diárias em dólares /
+  número de transações confirmadas no dia (Blockchain.com). Não inclui o coinbase e
+  não é o custo da Lightning. A linha tracejada é a média do trimestre (T7).
+- Figura 6: transações confirmadas on-chain por dia (Blockchain.com). Nem toda
+  transação é um pagamento por bens e serviços. Linha tracejada = média do trimestre.
+Saídas: figuras/fig1_capacidade.png, fig2_tvl.png, fig3_canais.png,
 fig4_nos.png, fig5_custo_onchain.png, fig6_transacoes_onchain.png
-- A Figura 6 mostra o numero de transacoes confirmadas on-chain por dia (Blockchain.com),
-  indicador de uso direto do Bitcoin. Nem toda transacao e um pagamento por bens e servicos.
 """
 import os
 import pandas as pd
@@ -26,7 +27,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
-DATAS = list(pd.date_range("2018-03-31", "2025-06-30", freq="QE")) + [pd.Timestamp("2025-08-31")]
+DATAS = list(pd.date_range("2018-03-31", "2026-09-30", freq="QE"))
 os.makedirs("figuras", exist_ok=True)
 b = pd.read_csv(os.path.join("data", "base_tcc.csv"), parse_dates=["data_referencia"])
 
@@ -39,37 +40,38 @@ def estilo(ax):
     ax.grid(axis="y", color="#D9D9D9", linewidth=0.8)
     ax.xaxis.set_major_locator(mdates.YearLocator())
     ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y"))
-
-def nota(fig, fonte):
-    fig.text(0.01, 0.01,
-             f"Fonte: {fonte}. Datas de referencia trimestrais; lacunas indicam datas sem observacao disponivel. Elaboracao propria.",
-             fontsize=7, style="italic")
+    ax.set_xlim(pd.Timestamp("2018-01-01"), pd.Timestamp("2026-12-31"))
 
 def salva(fig, arquivo):
-    plt.tight_layout(rect=[0, 0.05, 1, 1])
+    plt.tight_layout()
     plt.savefig(os.path.join("figuras", arquivo), bbox_inches="tight")
     plt.close(fig)
 
-def uma(ind, titulo, rotulo, fonte, arquivo):
+def uma(ind, rotulo, arquivo, media=None):
     s = serie(ind)
     if s.notna().sum() == 0:
         print("sem dados:", ind)
         return
-    fig, ax = plt.subplots(figsize=(9, 4.2), dpi=200)
-    ax.plot(s.index, s.values, marker="o", markersize=4, linewidth=1.5)
-    ax.set_title(titulo, fontsize=12, fontweight="bold")
+    fig, ax = plt.subplots(figsize=(9, 4.0), dpi=200)
+    ax.plot(s.index, s.values, marker="o", markersize=4, linewidth=1.5,
+            label="Valor na data de referência")
+    if media is not None:
+        m = serie(media)
+        if m.notna().sum():
+            ax.plot(m.index, m.values, linestyle="--", linewidth=1.2, color="#B22222",
+                    label="Média do trimestre")
+        ax.legend(frameon=False, fontsize=8)
     ax.set_ylabel(rotulo)
     estilo(ax)
-    nota(fig, fonte)
     salva(fig, arquivo)
 
-uma("capacidade_btc", "Capacidade da Lightning Network", "BTC", "mempool.space", "fig1_capacidade.png")
-uma("tvl_usd_milhoes", "Valor Total Bloqueado (TVL)", "US$ milhoes", "DeFiLlama", "fig2_tvl.png")
-uma("canais", "Canais da Lightning Network", "Numero de canais", "mempool.space", "fig3_canais.png")
+uma("capacidade_btc", "BTC", "fig1_capacidade.png")
+uma("tvl_usd_milhoes", "US$ milhões", "fig2_tvl.png")
+uma("canais", "Número de canais", "fig3_canais.png")
 
 componentes = [("nos_tor", "Tor"), ("nos_clearnet", "Clearnet"),
-               ("nos_nao_anunciados", "Nao anunciados"), ("nos_clearnet_tor", "Clearnet + Tor")]
-fig, ax = plt.subplots(figsize=(9, 4.3), dpi=200)
+               ("nos_nao_anunciados", "Não anunciados"), ("nos_clearnet_tor", "Clearnet + Tor")]
+fig, ax = plt.subplots(figsize=(9, 4.1), dpi=200)
 algum = False
 for ind, rotulo in componentes:
     s = serie(ind)
@@ -77,22 +79,13 @@ for ind, rotulo in componentes:
         ax.plot(s.index, s.values, marker="o", markersize=3, linewidth=1.3, label=rotulo)
         algum = True
 if algum:
-    ax.set_title("Nos da Lightning Network por tipo de conectividade", fontsize=12, fontweight="bold")
-    ax.set_ylabel("Numero de nos")
+    ax.set_ylabel("Número de nós")
     ax.legend(frameon=False, fontsize=8)
     estilo(ax)
-    nota(fig, "mempool.space")
     salva(fig, "fig4_nos.png")
 
-uma("custo_onchain_usd",
-    "Custo medio on-chain do Bitcoin por transacao",
-    "US$ por transacao",
-    "Blockchain.com (taxas totais / numero de transacoes)",
-    "fig5_custo_onchain.png")
-
-
-uma("transacoes_onchain_dia",
-    "Transacoes on-chain do Bitcoin confirmadas por dia",
-    "Transacoes por dia",
-    "Blockchain.com (n-transactions)",
-    "fig6_transacoes_onchain.png")
+uma("custo_onchain_usd", "US$ por transação", "fig5_custo_onchain.png",
+    media="custo_onchain_usd_media_trim")
+uma("transacoes_onchain_dia", "Transações por dia", "fig6_transacoes_onchain.png",
+    media="transacoes_onchain_dia_media_trim")
+print("figuras geradas em figuras/")
